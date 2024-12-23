@@ -1,9 +1,7 @@
 @font-face {
   font-family: "mountains_of_christmasregular";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/mountainsofchristmas-webfont.woff2")
-      format("woff2"),
-    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/mountainsofchristmas-webfont.woff")
-      format("woff");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/mountainsofchristmas-webfont.woff2") format("woff2"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/mountainsofchristmas-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -84,46 +82,55 @@ body {
   animation-duration: 8s;
   animation-delay: 0s;
 }
+
 .snowflake:nth-child(2) {
   left: 20%;
   animation-duration: 10s;
   animation-delay: 1s;
 }
+
 .snowflake:nth-child(3) {
   left: 30%;
   animation-duration: 6s;
   animation-delay: 2s;
 }
+
 .snowflake:nth-child(4) {
   left: 40%;
   animation-duration: 7s;
   animation-delay: 0s;
 }
+
 .snowflake:nth-child(5) {
   left: 50%;
   animation-duration: 9s;
   animation-delay: 1.5s;
 }
+
 .snowflake:nth-child(6) {
   left: 60%;
   animation-duration: 6s;
   animation-delay: 0.5s;
 }
+
 .snowflake:nth-child(7) {
   left: 70%;
   animation-duration: 8s;
   animation-delay: 2.5s;
 }
+
 .snowflake:nth-child(8) {
   left: 80%;
   animation-duration: 10s;
   animation-delay: 0.8s;
 }
+
 .snowflake:nth-child(9) {
   left: 90%;
   animation-duration: 7s;
   animation-delay: 1.2s;
 }
+
 .snowflake:nth-child(10) {
   left: 95%;
   animation-duration: 9s;
@@ -135,6 +142,7 @@ body {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(100vh);
   }
@@ -186,7 +194,7 @@ body {
 }
 
 .decoration.sock {
-  top: 600px;
+  top: 450px;
   font-size: 5rem;
 }
 
@@ -206,7 +214,7 @@ body {
 }
 
 .decoration.bow {
-  top: 900px;
+  top: 500px;
   font-size: 5.5rem;
 }
 
@@ -216,7 +224,7 @@ body {
 }
 
 .decoration.star {
-  top: 700px;
+  top: 600px;
   font-size: 5rem;
 }
 
@@ -256,7 +264,7 @@ body {
 }
 
 .decoration.cookies {
-  top: 230px;
+  top: 190px;
   font-size: 3rem;
 }
 
@@ -316,7 +324,7 @@ body {
 }
 
 .decoration.firework {
-  top: 580px;
+  top: 550px;
   font-size: 5.5rem;
 }
 
@@ -336,7 +344,7 @@ body {
 }
 
 .decoration.music {
-  top: 1000px;
+  top: 600px;
   font-size: 5.5rem;
 }
 
@@ -346,7 +354,7 @@ body {
 }
 
 .decoration.sleigh {
-  top: 550px;
+  top: 500px;
   font-size: 3.5rem;
 }
 
@@ -357,10 +365,12 @@ body {
 
 /* Keyframes cho hiệu ứng đung đưa */
 @keyframes swing {
+
   0%,
   100% {
     transform: rotate(-1deg);
   }
+
   50% {
     transform: rotate(1deg);
   }
